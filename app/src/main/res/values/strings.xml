@@ -1,0 +1,108 @@
+<resources>
+    <string name="AppName">Massari</string>
+    <string name="title_activity_predefined_geofence_areas">Predefined Geofence Areas</string>
+    <string name="AboutMassari">Massari is an application developed by PNU student with KASCT collaboration that aim to capture massive amount of location data to analyse mobility patterns</string>
+    <string name="title_activity_geofence_areas_configuration">Geofence Areas Configuration</string>
+    <string name="create_button">Create</string>
+    <string name="title_activity_route_visualization">Route Visualization</string>
+
+    <string name="app_name">Massari</string>
+    <string name="changepassword">Change Password</string>
+    <string name="currentpassword">Current Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="repeatpassword">Repeat Password</string>
+    <string name="emergencyalarm">Emergency Alarm</string>
+    <string name="phonenumber">Phone Number:</string>
+    <string name="message">Message is:</string>
+    <string name="remindernotification">Reminder Notification</string>
+    <string name="remindme">Remind Me</string>
+    <string name="choiceremind">Choice a Remind:</string>
+    <string name="repeat">Repeat</string>
+    <string name="entry">Entry</string>
+    <string name="exit">Exit</string>
+
+    <string-array name="names">
+        <item>دعاء الخروج</item>
+        <item>تسليم واجب</item>
+        <item>دعاء الدخول</item>
+        <item>الأذكار</item>
+        <item>تسليم البروجكت</item>
+        <item>حل الواجب</item>
+        <item>قراءة القرآن</item>
+        <item>أخرى</item>
+    </string-array>
+
+
+    <string name="title_activity_exportdata">Export Data</string>
+    <string name="exporteddata">Exported Data</string>
+    <string name="Historicalroutesearch">Historical Route Search</string>
+    <string name="title_activity_histoicalroute">Histoical Route</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="RemindersArranger">Reminders Arranger</string>
+    <string name="Informationcompany">Company Information</string>
+    <string name="Companycode">Company Code</string>
+    <string name="Companyname">Company Name</string>
+    <string name="Companytype">Company Type</string>
+    <string name="Public">Public</string>
+    <string name="Private">Private</string>
+    <string name="Productdelivery">Product delivery</string>
+    <string name="Vehicletype">Vehicle Type</string>
+    <string name="Vehicledriversinformation">Drivers information</string>
+    <string name="Numofdrivers">Number of drivers</string>
+    <string name="Name">Name</string>
+    <string name="VehicleNumber">Vehicle Number</string>
+    <string name="VehicleMobilityPattern"> Vehicle Mobility Pattern</string>
+    <string name="WorkPattern"> Work Pattern</string>
+    <string name="departure"> departure</string>
+    <string name="arrival"> arrival</string>
+    <string name="AddPattern">Add Pattern</string>
+    <string name="PlateNumber">Plate Number</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="Login">Login</string>
+    <string name="User">UserName</string>
+    <string name="FirstName">FirstName</string>
+    <string name="lastName">LastName</string>
+    <string name="UserName">UserName</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Male">Male</string>
+    <string name="Female">Female</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="HaveAccount">I Already have account</string>
+    <string name="Massari">Massari My Journey Tracker</string>
+    <string name="TypeOfVehicle"> Type Of Vehicle</string>
+    <string name="Bus"> Bus</string>
+    <string name="Lorry"> Lorry</string>
+    <string name="Business"> Business</string>
+    <string name="Personal">Personal</string>
+    <string name="CompanyCode">" Company Code"</string>
+    <string name="CompleteRegistration">  Complete Registration</string>
+    <string name="Strat"> Start</string>
+    <string name="VehicleMake">Vehicle Make</string>
+    <string name="VehicleModel">Vehicle Model</string>
+    <string name="VehicleName">Vehicle Name</string>
+    <string name="Email">Email</string>
+
+    <string name="Driver">Driver</string>
+    <string name="Rider">Rider</string>
+    <string name="SOS">SOS</string>
+    <string name="AboutMassari1">About Massari</string>
+    <string name="title_activity_start_tracking">StartTracking</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_google_map">Map</string>
+
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.kasct.pnu.massari.infocompany">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:text="@string/Companytype"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:text="@string/Companyname"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:text="@string/Companycode"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="85dp"
+        android:layout_height="38dp"
+        android:text="@string/Private"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="83dp"
+        android:layout_height="38dp"
+        android:text="@string/Public"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="99dp"
+        android:layout_height="38dp"
+        android:text="@string/Productdelivery"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="225dp"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="221dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="57dp"
+        android:layout_height="59dp"
+        android:clickable="true"
+        app:backgroundTint="@color/LightGreen"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <RadioGroup
+        android:layout_width="338dp"
+        android:layout_height="72dp"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+</android.support.constraint.ConstraintLayout>

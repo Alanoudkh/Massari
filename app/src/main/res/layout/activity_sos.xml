@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kasct.pnu.massari.SOS"
+    android:background="@drawable/background">
+
+
+    <TextView
+    android:id="@+id/textView6"
+    android:layout_width="378dp"
+    android:layout_height="165dp"
+    android:text="رقم الطوارئ يساعدك عند وقوع أي حالة طوارئ لك بإرسال تنبيه كرسالة نصية فيها بلاغك المسجل مسبقًا وتفاصيل موقعك الحالي للرقم الذي قمت بتسجيله وذلك بعد الضغط على زر الطوارئ "
+    android:textColor="@color/Blue"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    tools:layout_editor_absoluteX="3dp"
+    tools:layout_editor_absoluteY="48dp" />
+
+<TextView
+    android:id="@+id/textView7"
+    android:layout_width="324dp"
+    android:layout_height="51dp"
+    android:text="@string/phonenumber"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    tools:layout_editor_absoluteX="30dp"
+    tools:layout_editor_absoluteY="197dp" />
+
+<EditText
+    android:id="@+id/editText"
+    android:layout_width="321dp"
+    android:layout_height="49dp"
+    android:background="@color/box"
+    android:ems="10"
+    android:inputType="phone"
+    tools:layout_editor_absoluteX="47dp"
+    tools:layout_editor_absoluteY="231dp" />
+
+<TextView
+    android:id="@+id/textView8"
+    android:layout_width="324dp"
+    android:layout_height="61dp"
+    android:text="@string/message"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    tools:layout_editor_absoluteX="30dp"
+    tools:layout_editor_absoluteY="295dp" />
+
+<EditText
+    android:id="@+id/editText5"
+    android:layout_width="312dp"
+    android:layout_height="104dp"
+    android:background="@color/box"
+    android:ems="10"
+    android:inputType="textMultiLine"
+    tools:layout_editor_absoluteX="56dp"
+    tools:layout_editor_absoluteY="326dp" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/LightGreen"
+    android:text="@android:string/VideoView_error_button"
+    android:textColor="@color/White"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    tools:layout_editor_absoluteX="148dp"
+    tools:layout_editor_absoluteY="447dp" />
+
+</android.support.constraint.ConstraintLayout>

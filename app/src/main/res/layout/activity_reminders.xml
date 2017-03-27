@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background"
+        tools:context="com.kasct.pnu.massari.Reminders">
+
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton2"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:clickable="true"
+                app:backgroundTint="@color/LightGreen"
+                app:elevation="0dp"
+                app:fabSize="mini"
+                app:srcCompat="@android:drawable/ic_input_add"
+                tools:layout_editor_absoluteX="288dp"
+                tools:layout_editor_absoluteY="93dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton3"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:clickable="true"
+                app:backgroundTint="@color/LightGreen"
+                app:fabSize="mini"
+                app:srcCompat="@android:drawable/stat_notify_chat"
+                tools:layout_editor_absoluteX="220dp"
+                tools:layout_editor_absoluteY="93dp" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="276dp"
+                android:layout_height="32dp"
+                android:background="@color/box"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="دعاء الخروج  "
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="227dp" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="276dp"
+                android:layout_height="32dp"
+                android:background="@color/box"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="تسليم الواجب"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="381dp" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="276dp"
+                android:layout_height="32dp"
+                android:background="@color/box"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="ادخال البصمه"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="331dp" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="276dp"
+                android:layout_height="32dp"
+                android:background="@color/box"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="تسليم المشروع"
+                tools:layout_editor_absoluteX="42dp"
+                tools:layout_editor_absoluteY="279dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/LightGreen"
+                android:clickable="false"
+                app:backgroundTint="@color/LightGreen"
+                app:elevation="0dp"
+                app:fabSize="mini"
+                app:rippleColor="@color/black_overlay"
+                app:srcCompat="@android:drawable/ic_delete"
+                tools:layout_editor_absoluteX="320dp"
+                tools:layout_editor_absoluteY="331dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/LightGreen"
+                android:clickable="false"
+                app:backgroundTint="@color/LightGreen"
+                app:elevation="0dp"
+                app:fabSize="mini"
+                app:rippleColor="@color/black_overlay"
+                app:srcCompat="@android:drawable/ic_delete"
+                tools:layout_editor_absoluteX="320dp"
+                tools:layout_editor_absoluteY="381dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/LightGreen"
+                android:clickable="false"
+                app:backgroundTint="@color/LightGreen"
+                app:elevation="0dp"
+                app:fabSize="mini"
+                app:rippleColor="@color/black_overlay"
+                app:srcCompat="@android:drawable/ic_delete"
+                tools:layout_editor_absoluteX="320dp"
+                tools:layout_editor_absoluteY="279dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/LightGreen"
+                android:clickable="false"
+                app:backgroundTint="@color/LightGreen"
+                app:elevation="0dp"
+                app:fabSize="mini"
+                app:rippleColor="@color/black_overlay"
+                app:srcCompat="@android:drawable/ic_delete"
+                tools:layout_editor_absoluteX="320dp"
+                tools:layout_editor_absoluteY="279dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/LightGreen"
+                android:clickable="false"
+                app:backgroundTint="@color/LightGreen"
+                app:elevation="0dp"
+                app:fabSize="mini"
+                app:rippleColor="@color/black_overlay"
+                app:srcCompat="@android:drawable/ic_delete"
+                tools:layout_editor_absoluteX="320dp"
+                tools:layout_editor_absoluteY="219dp" />
+
+        </android.support.constraint.ConstraintLayout>

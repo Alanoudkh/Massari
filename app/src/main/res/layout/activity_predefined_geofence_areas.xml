@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.kasct.pnu.massari.PredefinedGeofenceAreas">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="44dp"
+            android:layout_height="77dp"
+            app:srcCompat="@drawable/modernglobe"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="-16dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="40dp"
+            android:layout_height="495dp"
+            android:clickable="true"
+            app:backgroundTint="@color/LightGreen"
+            app:elevation="0dp"
+            app:fabSize="mini"
+            app:srcCompat="@android:drawable/ic_input_add"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButton5"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/LightGreen"
+            android:clickable="false"
+            app:backgroundTint="@color/LightGreen"
+            app:elevation="0dp"
+            app:fabSize="mini"
+            app:rippleColor="@color/black_overlay"
+            app:srcCompat="@android:drawable/ic_delete"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="130dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="276dp"
+            android:layout_height="32dp"
+            android:background="@color/box"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="جامعة نورة "
+            tools:layout_editor_absoluteX="77dp"
+            tools:layout_editor_absoluteY="138dp" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</FrameLayout>

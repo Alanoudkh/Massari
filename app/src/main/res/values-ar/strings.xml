@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_geofence_areas_configuration">إعداد المناطق</string>
+    <string name="AboutMassari">مساري هو تطبيق تم إنشاه من قبل طالبات جامعة الأمير نورة بتعاون مع مدينة الملك عبدالعزيز للعلوم والتقنية لجمع بينات جغرافيه هائلة وذلك لتحيل نمط التنقلم</string>
+    <string name="AppName">مساري</string>
+    <string name="create_button">إنشاء</string>
+    <string name="title_activity_predefined_geofence_areas">المناطق المعرفة</string>
+    <string name="title_activity_route_visualization">تجسيد المسارات</string>
+
+
+        <string name="app_name">مساري</string>
+        <string name="changepassword">إعادة تعيين كلمة السر</string>
+        <string name="currentpassword">كلمة السر القديمة</string>
+        <string name="newpassword">كلمة السر الجديدة</string>
+        <string name="repeatpassword">تأكيد كلمة السر الجديدة</string>
+        <string name="emergencyalarm">تنبيه الطوارئ</string>
+    <string name="message">الرسالة</string>
+    <string name="phonenumber">رقم الهاتف</string>
+        <string name="remindernotification">التذكيرات</string>
+        <string name="remindme">ذكرني</string>
+        <string name="choiceremind">اختر تذكيرك:</string>
+        <string name="repeat">ذكرني دائما</string>
+        <string name="entry">عند الدخول</string>
+        <string name="exit">عند الخروج</string>
+
+
+        <string name="Historicalroutesearch">البحث بسجل المسارات</string>
+    <string name="title_activity_exportdata">تصدير البيانات</string>
+    <string name="title_activity_histoicalroute">سجل المسارات</string>
+
+
+
+        <string name="Informationcompany">معلومات الجهه</string>
+        <string name="Companycode">كود الجهة</string>
+        <string name="Companyname">اسم الجهة</string>
+        <string name="Companytype">نوع الجهة</string>
+        <string name="Email">البريد الالكتروني</string>
+        <string name="Name">الاسم</string>
+        <string name="Numofdrivers">عدد السائقين</string>
+        <string name="PlateNumber">رقم اللوحة</string>
+        <string name="Private">خاص</string>
+        <string name="Productdelivery">نقل البضائع</string>
+        <string name="Public">حكومي</string>
+        <string name="VehicleMake">سنة الصنع</string>
+        <string name="VehicleModel">ماركة المركبة</string>
+        <string name="VehicleName">طراز المركبة</string>
+        <string name="VehicleNumber">عدد المركبات</string>
+        <string name="Vehicledriversinformation">معلومات سائقي المركبات</string>
+        <string name="Vehicletype">نوع المركبة</string>
+        <string name="WorkPattern">نمط العمل</string>
+        <string name="arrival">اياب</string>
+        <string name="departure">ذهاب</string>
+        <string name="VehicleMobilityPattern">نمط تنقل المركبات</string>
+        <string name="AddPattern">اضافه نمط</string>
+    <string name="action_settings">إعدادات</string>
+
+
+        <string name="Login">تسجيل الدخول</string>
+        <string name="UserName">اسم المستخدم</string>
+        <string name="prompt_password">كلمه المرور</string>
+        <string name="FirstName">الاسم الاول</string>
+        <string name="Female">انثى</string>
+        <string name="CreateAccount">انشاء حساب</string>
+        <string name="ConfirmPassword">تاكيد كلمه المرور</string>
+        <string name="HaveAccount">لدي حساب بالفعل</string>
+        <string name="Male">ذكر</string>
+        <string name="Password">كلمه المرور</string>
+        <string name="User">اسم المستخدم</string>
+        <string name="lastName">الاسم الثاني</string>
+        <string name="Massari">مساري سهل مشواري</string>
+        <string name="CompleteRegistration">اتمام التسجيل</string>
+        <string name="CompanyCode">كود الجهه</string>
+        <string name="Bus">باص</string>
+        <string name="TypeOfVehicle">نوع المركبه</string>
+        <string name="Lorry">شاحنه</string>
+        <string name="Business">عمل</string>
+        <string name="Personal">خاص</string>
+        <string name="Strat">إبدأ</string>
+    <string name="error_invalid_password">كلمة السر قصيرة</string>
+    <string name="error_invalid_email">عنوان البريد الالكتروني غير صحيح</string>
+    <string name="error_incorrect_password">كلمة السرة غير صحيحة</string>
+    <string name="error_field_required">الحقل مطلوب</string>
+    <string name="action_sign_in">سجل دخولك أو أنشء حساب</string>
+    <string name="action_sign_in_short">تسجيل الدخول</string>
+    <string name="Driver">سائق</string>
+    <string name="Rider">راكب</string>
+    <string name="AboutMassari1">عن مساري</string>
+    <string name="RemindersArranger">إعداد التذكيرات</string>
+    <string name="SOS">تنبيه الطوارئ</string>
+    <string name="exporteddata">البيانات المصدرة</string>
+
+
+</resources>

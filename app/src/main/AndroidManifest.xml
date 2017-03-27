@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kasct.pnu.massari">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/AppName"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- To auto-complete the email text field in the login form with the user's emails -->
+        <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+        <uses-permission android:name="android.permission.READ_PROFILE" />
+        <uses-permission android:name="android.permission.READ_CONTACTS" />
+        <!--
+     The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+     Google Maps Android API v2, but you must specify either coarse or fine
+     location permissions for the 'MyLocation' functionality.
+-->
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+        <activity
+            android:name=".page1"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutMassari"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/AboutMassari1" />
+        <activity
+            android:name=".account"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/CreateAccount" />
+        <activity
+            android:name=".Exportdata1"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_exportdata" />
+        <activity
+            android:name=".Exporteddata"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/exporteddata" />
+        <activity
+            android:name=".GeofenceAreasConfiguration"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_geofence_areas_configuration"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".HistoricalDataSearch"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/Historicalroutesearch" />
+        <activity
+            android:name=".HistoricalData"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_histoicalroute" />
+        <activity
+            android:name=".infocompany"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/Informationcompany" />
+        <activity
+            android:name=".infodriver"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/Vehicledriversinformation" />
+        <activity
+            android:name=".login2"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/Login" />
+        <activity
+            android:name=".PredefinedGeofenceAreas"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_predefined_geofence_areas"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".registration"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/CompleteRegistration" />
+        <activity
+            android:name=".Reminders"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/RemindersArranger" />
+        <activity
+            android:name=".RouteVisualization"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_route_visualization"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".SOS"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/SOS" />
+        <activity android:name=".start" />
+        <activity
+            android:name=".vehiclemobilitypattern"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/VehicleMobilityPattern" />
+        <activity
+            android:name=".ChangePassword"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/changepassword" />
+        <activity
+            android:name=".RemindMe"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/remindme" />
+        <activity
+            android:name=".ReminderNotification"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/remindernotification" />
+        <activity
+            android:name=".StartTracking"
+            android:label="@string/title_activity_start_tracking"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".GoogleMap"
+            android:label="@string/title_activity_google_map"></activity>
+    </application>
+
+</manifest>

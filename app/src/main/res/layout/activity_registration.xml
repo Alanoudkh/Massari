@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.kasct.pnu.massari.registration">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:text="@string/Personal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Lorry"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="414dp"
+        tools:layout_editor_absoluteX="233dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Business"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Bus"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="189dp"
+        android:layout_height="27dp"
+        android:text="@string/TypeOfVehicle"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="311dp"
+        android:layout_height="45dp"
+        android:background="@color/LightGreen"
+        android:text="@string/CompleteRegistration"
+        android:textColor="@color/LightWhite"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="184dp"
+        android:layout_height="40dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteY="491dp"
+        tools:layout_editor_absoluteX="96dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="222dp"
+        android:layout_height="44dp"
+        android:text="@string/CompanyCode"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="236dp"
+        android:layout_height="33dp"
+        android:text="@string/VehicleMake"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="256dp"
+        tools:layout_editor_absoluteX="59dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="210dp"
+        android:layout_height="28dp"
+        android:text="@string/VehicleName"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="176dp"
+        tools:layout_editor_absoluteX="79dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="164dp"
+        android:layout_height="54dp"
+        android:text="@string/VehicleModel"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="104dp"
+        tools:layout_editor_absoluteX="79dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="154dp"
+        android:layout_height="34dp"
+        android:text="@string/PlateNumber"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="59dp" />
+
+
+</android.support.constraint.ConstraintLayout>

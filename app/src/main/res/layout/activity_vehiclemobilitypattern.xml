@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.kasct.pnu.massari.vehiclemobilitypattern">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="245dp"
+        android:layout_height="65dp"
+        android:text="@string/WorkPattern"
+        android:textColor="@color/Black"
+        android:textSize="33sp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:text="@string/arrival"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton4"
+        tools:layout_editor_absoluteX="119dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/departure"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="165dp"
+        android:layout_height="76dp"
+        android:background="@color/LightGreen"
+        android:text="@string/AddPattern"
+        android:textColor="@color/LightWhite"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <RadioGroup
+        android:layout_width="239dp"
+        android:layout_height="133dp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="200dp" />
+</android.support.constraint.ConstraintLayout>

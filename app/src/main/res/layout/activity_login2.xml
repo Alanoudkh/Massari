@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.kasct.pnu.massari.login2">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="229dp"
+        android:layout_height="48dp"
+        android:background="@color/LightGreen"
+        android:text="@string/Login"
+        android:textColor="@color/LightWhite"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="204dp"
+        android:layout_height="45dp"
+        android:background="@color/box"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="160dp"
+        android:layout_height="33dp"
+        android:text="@string/UserName"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:text="@string/Password"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="223dp"
+        tools:layout_editor_absoluteX="78dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CreateAccount"
+        android:textAllCaps="false"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+</android.support.constraint.ConstraintLayout>
