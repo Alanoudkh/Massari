@@ -1,2 +1,2 @@
 # Massari
-Fleet Tracking Crowd-Coursing App for Urban Mobility
+Fleet Tracking Crowd-Sourcing App for Urban Mobility
